@@ -10,6 +10,19 @@ spring:
   h2:
     console:
       enabled: ${H2_CONSOLE_ENABLED:false}
+  sql:
+    init:
+      mode: always
+      # Execute MySQL-compatible DDL/DML against H2 in MySQL mode for preview/dev
+      schema-locations: >
+        classpath:/sql/mall_category.sql,
+        classpath:/sql/mall_product.sql,
+        classpath:/sql/mall_user.sql,
+        classpath:/sql/mall_role.sql,
+        classpath:/sql/mall_user_role.sql,
+        classpath:/sql/mall_shipping.sql,
+        classpath:/sql/mall_order.sql,
+        classpath:/sql/mall_order_item.sql
 
 logging:
   pattern:

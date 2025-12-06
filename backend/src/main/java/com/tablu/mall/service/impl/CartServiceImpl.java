@@ -13,8 +13,7 @@ import com.tablu.mall.vo.CartProductVo;
 import com.tablu.mall.vo.CartVo;
 import com.tablu.mall.vo.ResponseVo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.HashOperations;
-import org.springframework.data.redis.core.StringRedisTemplate;
+import com.tablu.mall.utils.KVHashStore;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
@@ -39,13 +38,12 @@ public class CartServiceImpl implements CartService {
     private ProductMapper productMapper;
 
     @Autowired
-    private StringRedisTemplate redisTemplate;
+    private KVHashStore kvHashStore;
 
     @Override
     public ResponseVo<CartVo> cartList(Integer userId) {
         String redisKey = String.format(CART_KEY, userId);
-        HashOperations<String, String, String> opsForHash = redisTemplate.opsForHash();
-        Map<String, String> productIdCartMap = opsForHash.entries(redisKey);
+        Map<String, String> productIdCartMap = kvHashStore.entries(redisKey);
 
         BigDecimal cartTotalPrice = BigDecimal.ZERO;
         Integer cartTotalQuantity = 0;
@@ -116,9 +114,8 @@ public class CartServiceImpl implements CartService {
         }
 
         //uid, productId, cart
-        HashOperations<String, String, String> opsForHash = redisTemplate.opsForHash();
         String redisKey = String.format(CART_KEY, userId);
-        String strCart = opsForHash.get(redisKey, String.valueOf(productId));
+        String strCart = kvHashStore.get(redisKey, String.valueOf(productId));
         Cart cart;
         if (StringUtils.isEmpty(strCart)) {
             cart = new Cart(productId, DEFAULT_ADD_QUANTITY, cartAddForm.getSelected());
@@ -126,7 +123,7 @@ public class CartServiceImpl implements CartService {
             cart = gson.fromJson(strCart, Cart.class);
             cart.setQuantity(cart.getQuantity() + DEFAULT_ADD_QUANTITY);
         }
-        opsForHash.put(redisKey, String.valueOf(productId), gson.toJson(cart));
+        kvHashStore.put(redisKey, String.valueOf(productId), gson.toJson(cart));
 
         return cartList(userId);
     }
@@ -134,8 +131,7 @@ public class CartServiceImpl implements CartService {
     @Override
     public ResponseVo<CartVo> update(CartUpdateForm cartUpdateForm, Integer productId, Integer userId) {
         String redisKey = String.format(CART_KEY, userId);
-        HashOperations<String, String, String> opsForHash = redisTemplate.opsForHash();
-        String strCart = opsForHash.get(redisKey, String.valueOf(productId));
+        String strCart = kvHashStore.get(redisKey, String.valueOf(productId));
 
         if (StringUtils.isEmpty(strCart)) {
             return ResponseVo.error(ResponseEnum.CART_WITHOUT_PRODUCT);
@@ -168,14 +164,13 @@ public class CartServiceImpl implements CartService {
 
     private boolean deleteFromCart(Integer productId, Integer userId) {
         String redisKey = String.format(CART_KEY, userId);
-        HashOperations<String, String, String> opsForHash = redisTemplate.opsForHash();
-        String strCart = opsForHash.get(redisKey, String.valueOf(productId));
+        String strCart = kvHashStore.get(redisKey, String.valueOf(productId));
 
         if (StringUtils.isEmpty(strCart)) {
             return false;
         }
 
-        opsForHash.delete(redisKey, String.valueOf(productId));
+        kvHashStore.delete(redisKey, String.valueOf(productId));
         return true;
     }
 
@@ -218,13 +213,12 @@ public class CartServiceImpl implements CartService {
 
     private ResponseVo<CartVo> setSelectedCondition(boolean condition, Integer userId) {
         String redisKey = String.format(CART_KEY, userId);
-        HashOperations<String, String, String> opsForHash = redisTemplate.opsForHash();
-        Map<String, String> productIdCartMap = opsForHash.entries(redisKey);
+        Map<String, String> productIdCartMap = kvHashStore.entries(redisKey);
         for (Map.Entry<String, String> entry : productIdCartMap.entrySet()) {
             String strProductId = entry.getKey();
             Cart cart = gson.fromJson(entry.getValue(), Cart.class);
             cart.setProductSelected(condition);
-            opsForHash.put(redisKey, strProductId, gson.toJson(cart));
+            kvHashStore.put(redisKey, strProductId, gson.toJson(cart));
         }
         return cartList(userId);
     }
