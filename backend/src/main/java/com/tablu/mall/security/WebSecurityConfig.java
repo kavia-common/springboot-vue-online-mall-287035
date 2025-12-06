@@ -21,11 +21,21 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.access.intercept.FilterSecurityInterceptor;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+
+import java.time.Duration;
 
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
+    // PUBLIC_INTERFACE
+    /**
+     * Password encoder bean used by Spring Security for hashing user passwords.
+     * @return BCryptPasswordEncoder instance
+     */
     @Bean
     BCryptPasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
@@ -50,6 +60,13 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         web.ignoring().antMatchers("/css/**", "/js/**", "/index.html", "/imgs/**", "/fonts/**", "/favicon.ico", "/verifyCode");
     }
 
+    // PUBLIC_INTERFACE
+    /**
+     * Login filter bean to handle authentication success and failure with JSON responses.
+     * This filter processes POST /user/login requests.
+     * @return configured LoginFilter
+     * @throws Exception when AuthenticationManager cannot be created
+     */
     @Bean
     LoginFilter loginFilter() throws Exception {
         LoginFilter loginFilter = new LoginFilter();
@@ -77,9 +94,34 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return loginFilter;
     }
 
+    // PUBLIC_INTERFACE
+    /**
+     * CORS configuration to allow the Vue dev server (and other origins) to call the backend API.
+     * Allows all origins, headers, and methods for development. Credentials are disabled.
+     * @return CorsConfigurationSource for Spring Security HTTP CORS support
+     */
+    @Bean
+    public CorsConfigurationSource corsConfigurationSource() {
+        CorsConfiguration configuration = new CorsConfiguration();
+        // Use allowedOriginPatterns to support wildcards on Spring Security 5.7 (Boot 2.7)
+        configuration.addAllowedOriginPattern("*");
+        configuration.addAllowedHeader("*");
+        configuration.addAllowedMethod("*");
+        configuration.setAllowCredentials(false);
+        configuration.setMaxAge(Duration.ofHours(1));
+
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        // Apply CORS config to all endpoints
+        source.registerCorsConfiguration("/**", configuration);
+        return source;
+    }
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.addFilterAt(loginFilter(), UsernamePasswordAuthenticationFilter.class);
+
+        // Enable CORS so that the frontend (typically running on port 3000) can access the backend
+        http.cors();
 
         http.authorizeRequests()
                 .withObjectPostProcessor(new ObjectPostProcessor<FilterSecurityInterceptor>() {

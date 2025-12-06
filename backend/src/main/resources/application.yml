@@ -1,21 +1,26 @@
-
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mall?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
-    username: root
-    password: root
+    driver-class-name: ${DB_DRIVER:org.h2.Driver}
+    url: ${DB_URL:jdbc:h2:mem:mall;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false;NON_KEYWORDS=VALUE}
+    username: ${DB_USERNAME:sa}
+    password: ${DB_PASSWORD:}
   redis:
-    host: localhost
-    port: 6379
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+  h2:
+    console:
+      enabled: ${H2_CONSOLE_ENABLED:false}
+
 logging:
   pattern:
     console: "[%thread] %-5level %logger{36} - %msg%n"
+
 mybatis:
   type-aliases-package: com.tablu.mall.pojo
   configuration:
     map-underscore-to-camel-case: true
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: classpath:/mappers/*.xml
+
 server:
-  port: 8080
+  port: ${SERVER_PORT:3001}

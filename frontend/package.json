@@ -28,7 +28,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "jsonp": "^0.2.1",
     "mockjs": "^1.1.0",
-    "node-sass": "^4.14.1",
+    "sass": "^1.32.13",
     "sass-loader": "^10.0.1",
     "swiper": "^5.2.0",
     "vue-awesome-swiper": "^4.1.1",
