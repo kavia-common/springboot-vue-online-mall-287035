@@ -3690,3 +3690,449 @@
 2025-12-06 19:19:46,945 - Knowledge - INFO - ⚡ Total Redis path: 0.92s (vs ~300s from disk)
 2025-12-06 19:19:47,166 - Knowledge - INFO - Saving knowledge to Redis...
 2025-12-06 19:19:47,389 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-12-06 19:42:31,670 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-06 19:42:32,009 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-06 19:42:32,207 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-06 19:42:32,451 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=25, max_concurrent_llm_calls=50
+2025-12-06 19:42:33,577 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-12-06 19:42:33,739 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-12-06 19:42:33,961 - Knowledge - INFO - load persisted knowledge: begin
+2025-12-06 19:42:34,194 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:34,396 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:34,621 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/OrderController.java
+2025-12-06 19:42:34,806 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:34,955 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:35,140 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/assets/scss/reset.scss
+2025-12-06 19:42:35,339 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:35,525 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:35,708 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/ShippingService.java
+2025-12-06 19:42:35,890 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:36,119 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:36,318 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_shipping.sql
+2025-12-06 19:42:36,492 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:36,676 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:36,887 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/security/WebSecurityConfig.java
+2025-12-06 19:42:37,088 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:37,263 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:37,474 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/CartVo.java
+2025-12-06 19:42:37,683 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:37,860 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:38,052 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/OrderItemMapper.java
+2025-12-06 19:42:38,259 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:38,421 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:38,636 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/application.yml
+2025-12-06 19:42:38,811 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:38,966 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:39,184 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/Order.java
+2025-12-06 19:42:39,360 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:39,589 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:39,812 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/impl/UserServiceImpl.java
+2025-12-06 19:42:39,974 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:40,176 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:40,404 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/api/收货地址Shipping.md
+2025-12-06 19:42:40,596 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:40,806 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:41,003 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_role.sql
+2025-12-06 19:42:41,213 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:41,405 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:41,641 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/ProductMapper.xml
+2025-12-06 19:42:41,806 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:42,032 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:42,217 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/service/impl/OrderServiceImplTest.java
+2025-12-06 19:42:42,407 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:42,628 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:42,828 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/QueryCategory.java
+2025-12-06 19:42:43,016 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:43,206 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:43,426 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/ShippingVo.java
+2025-12-06 19:42:43,621 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:43,816 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:43,970 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/UserRegisterForm.java
+2025-12-06 19:42:44,159 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:44,352 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:44,558 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/enums/ResponseEnum.java
+2025-12-06 19:42:44,739 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:44,914 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:45,086 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/public/index.html
+2025-12-06 19:42:45,292 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:45,481 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:45,627 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/ProductUpdateForm.java
+2025-12-06 19:42:45,787 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:46,029 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:46,177 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/assets/scss/base.scss
+2025-12-06 19:42:46,351 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:46,523 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:46,723 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_order_item.sql
+2025-12-06 19:42:46,952 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:47,130 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:47,349 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/generatorConfig.xml
+2025-12-06 19:42:47,538 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:47,752 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:47,979 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/CartService.java
+2025-12-06 19:42:48,181 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:48,364 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:48,594 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/UserRoleMapper.xml
+2025-12-06 19:42:48,828 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:49,024 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:49,227 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/CategoryVo.java
+2025-12-06 19:42:49,416 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:49,626 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:49,811 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/service/impl/BackendServiceImplTest.java
+2025-12-06 19:42:50,010 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:50,192 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:50,392 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/MyErrorController.java
+2025-12-06 19:42:50,554 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:50,742 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:50,948 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/UserMapper.java
+2025-12-06 19:42:51,119 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:51,310 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:51,492 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/OrderCreateForm.java
+2025-12-06 19:42:51,665 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:51,876 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:52,095 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/mock/api.js
+2025-12-06 19:42:52,294 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:52,476 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:52,689 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/babel.config.js
+2025-12-06 19:42:52,907 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:53,099 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:53,310 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/OrderStatusForm.java
+2025-12-06 19:42:53,507 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:53,706 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:53,929 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/exception/RuntimeExceptionHandler.java
+2025-12-06 19:42:54,104 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:54,270 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:54,468 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/README.md
+2025-12-06 19:42:54,647 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:54,834 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:55,049 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_category.sql
+2025-12-06 19:42:55,267 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:55,437 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:55,603 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/CategoryService.java
+2025-12-06 19:42:55,764 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:55,928 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:56,141 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/assets/scss/mixin.scss
+2025-12-06 19:42:56,376 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:56,616 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:56,819 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/dao/RoleMapperTest.java
+2025-12-06 19:42:56,984 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:57,160 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:57,351 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/auth.yml
+2025-12-06 19:42:57,525 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:57,744 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:57,941 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/router.js
+2025-12-06 19:42:58,184 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:58,344 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:58,530 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/OrderVo.java
+2025-12-06 19:42:58,729 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:58,898 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:59,103 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/Category.java
+2025-12-06 19:42:59,322 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:42:59,484 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:42:59,665 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/impl/ProductServiceImpl.java
+2025-12-06 19:42:59,858 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:00,054 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:00,231 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/OrderItemMapper.xml
+2025-12-06 19:43:00,449 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:00,627 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:00,805 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/PaymentForm.java
+2025-12-06 19:43:01,008 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:01,208 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:01,370 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/utils/UUIDUtil.java
+2025-12-06 19:43:01,558 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:01,742 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:01,926 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/security/UrlAccessDecisionManager.java
+2025-12-06 19:43:02,129 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:02,319 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:02,524 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/dao/ShippingMapperTest.java
+2025-12-06 19:43:02,696 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:02,882 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:03,083 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/pom.xml
+2025-12-06 19:43:03,279 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:03,451 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:03,621 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/api/商品Product.md
+2025-12-06 19:43:03,858 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:04,044 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:04,243 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/CategoryController.java
+2025-12-06 19:43:04,432 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:04,599 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:04,805 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_order.sql
+2025-12-06 19:43:04,969 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:05,182 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:05,355 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/service/impl/CategoryServiceImplTest.java
+2025-12-06 19:43:05,532 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:05,755 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:05,981 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/assets/scss/modal.scss
+2025-12-06 19:43:06,163 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:06,338 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:06,545 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/ProductDetailVo.java
+2025-12-06 19:43:06,748 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:06,951 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:07,121 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/OrderService.java
+2025-12-06 19:43:07,315 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:07,523 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:07,709 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/RoleForm.java
+2025-12-06 19:43:07,889 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:08,091 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:08,307 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/Shipping.java
+2025-12-06 19:43:08,491 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:08,715 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:08,906 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/main.js
+2025-12-06 19:43:09,075 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:09,231 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:09,460 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/service/impl/CartServiceImplTest.java
+2025-12-06 19:43:09,653 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:09,871 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:10,038 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/UserMapper.xml
+2025-12-06 19:43:10,239 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:10,427 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:10,634 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/exception/OrderBuildException.java
+2025-12-06 19:43:10,794 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:10,974 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:11,146 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/BackendService.java
+2025-12-06 19:43:11,373 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:11,600 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:11,785 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/ProductMapper.java
+2025-12-06 19:43:11,957 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:12,127 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:12,301 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/UserRoleMapper.java
+2025-12-06 19:43:12,503 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:12,657 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:12,846 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/ShippingForm.java
+2025-12-06 19:43:13,038 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:13,247 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:13,457 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/ShippingController.java
+2025-12-06 19:43:13,607 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:13,752 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:13,981 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/Role.java
+2025-12-06 19:43:14,214 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:14,390 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:14,548 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/CartController.java
+2025-12-06 19:43:14,733 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:14,960 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:15,173 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/enums/ProductStatusEnum.java
+2025-12-06 19:43:15,351 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:15,492 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:15,720 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/service/impl/ShippingServiceImplTest.java
+2025-12-06 19:43:15,896 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:16,082 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:16,249 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/dao/CategoryMapperTest.java
+2025-12-06 19:43:16,460 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:16,644 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:16,814 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/ProductAddForm.java
+2025-12-06 19:43:17,001 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:17,189 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:17,351 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_user_role.sql
+2025-12-06 19:43:17,522 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:17,690 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:17,923 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/vue.config.js
+2025-12-06 19:43:18,119 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:18,313 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:18,523 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/Cart.java
+2025-12-06 19:43:18,686 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:18,852 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:19,040 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/UserRoleKey.java
+2025-12-06 19:43:19,240 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:19,452 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:19,615 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/dao/ProductMapperTest.java
+2025-12-06 19:43:19,793 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:19,959 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:20,165 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/OrderMapper.java
+2025-12-06 19:43:20,345 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:20,505 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:20,699 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/OrderItemVo.java
+2025-12-06 19:43:20,889 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:21,061 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:21,223 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/store/mutations.js
+2025-12-06 19:43:21,397 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:21,600 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:21,807 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/security/UrlFilterInvocationSecurityMetadataSource.java
+2025-12-06 19:43:21,974 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:22,153 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:22,370 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/CartProductVo.java
+2025-12-06 19:43:22,612 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:22,787 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:23,000 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/CartUpdateForm.java
+2025-12-06 19:43:23,184 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:23,383 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:23,622 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/assets/scss/button.scss
+2025-12-06 19:43:23,804 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:23,996 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:24,192 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/ShippingMapper.xml
+2025-12-06 19:43:24,369 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:24,554 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:24,714 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/api/类目Category.md
+2025-12-06 19:43:24,912 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:25,084 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:25,248 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/RoleMapper.xml
+2025-12-06 19:43:25,460 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:25,661 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:25,826 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/impl/BackendServiceImpl.java
+2025-12-06 19:43:26,047 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:26,270 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:26,471 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/enums/PaymentTypeEnum.java
+2025-12-06 19:43:26,633 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:26,820 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:26,997 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/enums/OrderStatusEnum.java
+2025-12-06 19:43:27,231 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:27,441 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:27,674 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/utils/VerificationCodeUtil.java
+2025-12-06 19:43:27,873 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:28,134 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:28,331 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/Product.java
+2025-12-06 19:43:28,561 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:28,768 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:28,984 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/CategoryMapper.xml
+2025-12-06 19:43:29,174 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:29,393 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:29,611 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/utils/JsonUtil.java
+2025-12-06 19:43:29,800 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:30,014 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:30,153 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/ResponseVo.java
+2025-12-06 19:43:30,330 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:30,496 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:30,689 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/store/index.js
+2025-12-06 19:43:30,859 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:31,044 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:31,248 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/UserVo.java
+2025-12-06 19:43:31,417 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:31,595 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:31,779 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/MallApplicationTests.java
+2025-12-06 19:43:31,980 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:32,172 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:32,363 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/ProductController.java
+2025-12-06 19:43:32,559 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:32,749 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:32,899 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/README.md
+2025-12-06 19:43:33,151 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:33,363 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:33,582 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/public/mock/user/login.json
+2025-12-06 19:43:33,761 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:33,947 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:34,125 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/assets/scss/element-variables.scss
+2025-12-06 19:43:34,337 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:34,551 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:34,728 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/storage/index.js
+2025-12-06 19:43:34,947 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:35,123 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:35,327 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/service/impl/ProductServiceImplTest.java
+2025-12-06 19:43:35,505 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:35,703 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:35,897 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/impl/OrderServiceImpl.java
+2025-12-06 19:43:36,121 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:36,297 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:36,474 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_user.sql
+2025-12-06 19:43:36,631 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:36,812 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:37,008 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/UserService.java
+2025-12-06 19:43:37,205 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:37,424 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:37,627 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/UserController.java
+2025-12-06 19:43:37,834 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:38,032 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:38,200 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/mappers/OrderMapper.xml
+2025-12-06 19:43:38,430 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:38,635 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:38,829 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/consts/MallConst.java
+2025-12-06 19:43:39,066 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:39,257 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:39,441 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/controller/OmsController.java
+2025-12-06 19:43:39,653 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:39,861 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:40,056 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/security/LoginFilter.java
+2025-12-06 19:43:40,253 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:40,422 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:40,660 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/api/订单Order.md
+2025-12-06 19:43:40,855 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:41,076 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:41,285 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/CategoryMapper.java
+2025-12-06 19:43:41,509 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:41,698 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:41,899 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/User.java
+2025-12-06 19:43:42,106 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:42,293 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:42,489 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/assets/scss/config.scss
+2025-12-06 19:43:42,709 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:42,872 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:43,111 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/impl/ShippingServiceImpl.java
+2025-12-06 19:43:43,309 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:43,495 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:43,685 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/enums/RoleEnum.java
+2025-12-06 19:43:43,862 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:44,046 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:44,222 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/dao/OrderItemMapperTest.java
+2025-12-06 19:43:44,421 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:44,622 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:44,825 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/package.json
+2025-12-06 19:43:45,023 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:45,192 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:45,412 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/frontend/src/store/action.js
+2025-12-06 19:43:45,579 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:45,776 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:45,966 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/impl/CartServiceImpl.java
+2025-12-06 19:43:46,187 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:46,379 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:46,572 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/service/impl/UserServiceImplTest.java
+2025-12-06 19:43:46,795 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:46,970 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:47,137 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/enums/ShippingEnum.java
+2025-12-06 19:43:47,300 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:47,484 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:47,688 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/MallApplication.java
+2025-12-06 19:43:47,892 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:48,073 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:48,238 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/security/SecurityTest.java
+2025-12-06 19:43:48,409 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:48,608 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:48,824 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/form/CartAddForm.java
+2025-12-06 19:43:49,004 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:49,206 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:49,392 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/api/后台Backend.md
+2025-12-06 19:43:49,602 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:49,770 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:49,970 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/RoleMapper.java
+2025-12-06 19:43:50,143 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:50,296 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:50,471 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/vo/ProductVo.java
+2025-12-06 19:43:50,635 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:50,874 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:51,067 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/dao/ShippingMapper.java
+2025-12-06 19:43:51,273 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:51,452 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:51,654 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/api/用户User.md
+2025-12-06 19:43:51,847 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:52,048 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:52,249 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/pojo/OrderItem.java
+2025-12-06 19:43:52,447 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:52,647 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:52,827 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/utils/UrlRoleNameMapUtil.java
+2025-12-06 19:43:53,041 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:53,241 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:53,464 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/resources/sql/mall_product.sql
+2025-12-06 19:43:53,639 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:53,848 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:54,035 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/impl/CategoryServiceImpl.java
+2025-12-06 19:43:54,264 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:54,465 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:54,638 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/api/购物车Cart.md
+2025-12-06 19:43:54,858 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:55,021 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:55,210 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/test/java/com/tablu/mall/dao/UserMapperTest.java
+2025-12-06 19:43:55,421 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/springboot-vue-online-mall-287035.git:kavia-master
+2025-12-06 19:43:55,578 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c8b3670d0>
+2025-12-06 19:43:55,802 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/287035/b1122dj/springboot-vue-online-mall-287035/backend/src/main/java/com/tablu/mall/service/ProductService.java
+2025-12-06 19:43:55,984 - Knowledge - INFO - Loaded 141 files from persisted knowledge
+2025-12-06 19:43:56,186 - Knowledge - INFO - load persisted knowledge: end
+2025-12-06 19:43:56,387 - Knowledge - INFO - Redis support added with prefix knowledge:b1122dj:
+2025-12-06 19:43:56,754 - Knowledge - INFO - Starting knowledge initialization for ID: KUhYlK-b1122dj
+2025-12-06 19:43:56,959 - Knowledge - INFO - 🔍 Checking Redis for build_id: b1122dj
+2025-12-06 19:43:57,153 - Knowledge - INFO - 🔍 Full session ID: KUhYlK-b1122dj
+2025-12-06 19:43:57,333 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b1122dj:
+2025-12-06 19:43:57,566 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-12-06 19:43:57,764 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-12-06 19:43:57,951 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b1122dj
+2025-12-06 19:43:58,131 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-12-06 19:43:58,286 - Knowledge - INFO - ✅ Successfully loaded from Redis: 141 files
+2025-12-06 19:43:58,487 - Knowledge - INFO - ✅ Redis load complete: 141 files in 0.92s
+2025-12-06 19:43:58,702 - Knowledge - INFO - ⚡ Total Redis path: 0.92s (vs ~300s from disk)
+2025-12-06 19:43:58,918 - Knowledge - INFO - Saving knowledge to Redis...
+2025-12-06 19:43:59,121 - Knowledge - INFO - Knowledge saved to Redis successfully
